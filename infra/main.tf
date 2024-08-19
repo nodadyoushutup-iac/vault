@@ -1,5 +1,5 @@
 module "vault" {
-  source  = "spacelift.io/nodadyoushutup/virtual_machine_simple/proxmox"
+  source  = "spacelift.io/nodadyoushutup/virtual_machine/proxmox"
   # version = "1.0.0"
   vm_id = 102
   name = "vault"
